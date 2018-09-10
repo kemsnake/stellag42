@@ -1,0 +1,139 @@
+/* project foto fields */
+.main-facade-foto-house-project{
+    width: 100%;
+    text-align: center;
+}
+
+.foto-1{
+    padding-left: 0;
+}
+
+.foto-2{
+    padding-right: 0;
+}
+
+.plans-field-items-one-item .plans-foto-house-project{
+    width: 99.5%!important;
+}
+
+.main-facade-foto-house-project{
+    margin-bottom: 1em!important;
+}
+
+.minor-facade-foto-house-project,
+.plans-foto-house-project{
+    width: 49.5%;
+    float: left;
+    /*clear:none;*/
+    padding: 0.5%;
+    overflow: hidden;
+}
+
+.main-facade-foto-house-project img,
+.minor-facade-foto-house-project img{
+    width: 100%;
+    height: auto;
+}
+
+.plans-foto-house-project img{
+    width: 100%;
+    height: auto;
+}
+
+.plans-field-items-one-item .field-item{
+    margin: 0 auto;
+    float:none;
+    width: 99%;
+}
+
+.plans-field-items,
+.field-name-field-project-plans-fotos,
+.facade-field-items{
+    overflow: hidden!important;
+    width: 100%;
+}
+
+.field-name-body{
+    font-size: 12px;
+    text-align: justify;
+}
+
+/* pdf */
+.pdf-footer{
+    text-align: center;
+}
+
+.pdf-header .left-logo{
+    float: left;
+    width: 30%;
+}
+.pdf-header .right-logo{
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+.pdf-header .right-top-text{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.pdf-header .right-top-text-node-title{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.pdf-header hr{
+    line-height: 4px;
+    margin-bottom: 0;
+}
+
+.pdf-header-phones{
+    float: right;
+    text-align: right;
+    margin: 0;
+}
+
+.pdf-header span.logo-text{
+    text-transform: uppercase;
+}
+
+.pdf-header .logo{
+    text-align:center;
+}
+
+.pdf-header span.logo-text-firmname{
+    color: red;
+}
+
+.pdf-footer-firmname{
+    font-weight: normal;
+}
+
+td.field-item-build_time{
+    font-weight: bold;
+    text-align:right;
+    font-size: 18px;
+}
+
+#signature-block {
+    width:100%;
+}
+
+#user-image, #user-signature{
+    float:left;
+    text-align: right;
+
+}
+
+#user-signature{
+    margin-right: 15px;
+}
+
+#user-signature{
+    width:68%;
+}
+
+.project-parameters-table tr .td-name{
+    width:48%;
+}

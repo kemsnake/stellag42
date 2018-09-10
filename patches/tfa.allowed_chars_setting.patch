@@ -1,0 +1,18 @@
+Index: sites/all/modules/tfa/tfa.module
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- sites/all/modules/tfa/tfa.module	(revision c9a60b12d165305b3aa11ec78ceba598634c3b15)
++++ sites/all/modules/tfa/tfa.module	(revision )
+@@ -192,7 +192,8 @@
+ function tfa_generate_code($account) {
+   $code_length = variable_get('tfa_code_length', 6);
+   // Generate a randomized string of characters.
+-  $code = substr(str_shuffle(str_repeat("123456789abcdefghjkmnpqrstuvwxyz", 5)), 0, $code_length);
++  $allowed_chars = variable_get('tfa_allowed_chars', '123456789abcdefghjkmnpqrstuvwxyz');
++  $code = substr(str_shuffle(str_repeat($allowed_chars, 5)), 0, $code_length);
+   return $code;
+ }
+ 
+\ No newline at end of file
