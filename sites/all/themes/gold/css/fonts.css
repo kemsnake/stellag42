@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: 'base';
+    src: url('../fonts/base-regular.eot');
+    src: url('../fonts/base-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/base-regular.woff2') format('woff2'),
+         url('../fonts/base-regular.woff') format('woff'),
+         url('../fonts/base-regular.ttf') format('truetype'),
+         url('../fonts/base-regular.svg#baseregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

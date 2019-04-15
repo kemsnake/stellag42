@@ -1,0 +1,44 @@
+name = Gold
+description = The GOLD theme for Drupal Commerce
+core = 7.x
+
+stylesheets[all][] = uikit/css/uikit.white.min.css
+stylesheets[all][] = uikit/css/components/search.gradient.min.css
+stylesheets[all][] = uikit/css/components/sticky.gradient.min.css
+stylesheets[all][] = css/fonts.css
+stylesheets[all][] = css/white.css
+scripts[] = uikit/js/uikit.min.js
+scripts[] = uikit/js/components/grid.min.js
+scripts[] = uikit/js/components/search.min.js
+scripts[] = uikit/js/components/sticky.min.js
+scripts[] = js/app.js
+
+regions[top]         	= Top
+regions[header]         = Header
+regions[shopping_cart]  = Shopping cart
+regions[navigation]     = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[catblocks]		= Category Blocks
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer]         = Footer
+
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+
+; Information added by Drupal.org packaging script on 2016-12-02
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "gold"
+datestamp = "1480693689"
+

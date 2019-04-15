@@ -1,0 +1,52 @@
+name = Bootstrap Plus
+description = A bootstrap sub theme extended features
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[banner]         = 'Banner'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[under_content_first]  = 'Under Content First'
+regions[under_content_second] = 'Under Content Second'
+regions[under_content_third]  = 'Under Contente Third'
+regions[footer_first]         = 'Footer First'
+regions[footer_second]         = 'Footer Second'
+regions[footer_third]         = 'Footer Third'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/custom.css
+stylesheets[all][] = slick/slick.css
+stylesheets[all][] = slick/slick-theme.css
+
+javascripts[all][] = js/slide.js
+javascripts[all][] = slick/slick.min.js
+javascripts[all][] = js/jquery-migrate-1.2.1.min.js
+
+settings[bootstrap_fluid_container] = 1
+settings[bootstrap_navbar_position] = 'static-top'
+
+
+; Information added by Drupal.org packaging script on 2017-06-27
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "bootstrap_plus"
+datestamp = "1498556944"
+
