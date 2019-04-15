@@ -1927,3 +1927,12 @@ div.warning {
 .view-gallery .views-row img:hover{
   opacity: .6;
 }
+
+.view .views-field-name,
+.view .views-field-field-photo .field-content {
+  text-align: center;
+}
+.view .views-field-field-price {
+  font-weight: bold;
+  font-size: 20px;
+}
