@@ -1,0 +1,8 @@
+<div class="container">
+  <div class="footer-copyright-title">
+    &#169; Copyright 2015  CMS Bots
+  </div>
+  <div class="footer-copyright-content">
+   <a href="http://drupalstyle.ru/">Шаблоны Drupal</a>
+  </div>
+</div>
