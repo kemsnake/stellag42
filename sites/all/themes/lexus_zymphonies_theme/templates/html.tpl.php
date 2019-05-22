@@ -7,6 +7,7 @@
 <?php print $scripts; ?>
 <!--[if IE 8 ]>    <html class="ie8 ielt9"> <![endif]-->
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="icon" href=​"http://евросклад42.рф/favicon.png" type="image/png">
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
 	<div id="skip-link">
